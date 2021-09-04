@@ -13,3 +13,13 @@ The following options are mutually exclusive with one another.
 
 - `-s` specifies a series of integers representing the word lengths
 - `-c` specifies the ciphertext to try and find a match for against the corpus
+
+## Examples
+
+```bash
+python3 -m wordlengthmatcher -s '4,3,4,4,2,1,5' corpus.txt
+```
+
+```bash
+python3 -m wordlengthmatcher -c 'kjd menqu djdd m' corpus.txt
+```
